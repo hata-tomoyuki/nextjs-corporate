@@ -1,11 +1,14 @@
+import { AnimatePresence } from 'framer-motion'
 import Layout from '../components/Layout'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <AnimatePresence exitBeforeEnter>
+      <Layout>
+        <Component key={router.asPath} {...pageProps} />
+      </Layout>
+    </AnimatePresence>
   )
 }
 
