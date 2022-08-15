@@ -11,7 +11,7 @@ export default function Home({ services }) {
       initial={{ opacity: 0 }} // 初期状態
       animate={{ opacity: 1 }} // マウント時
       exit={{ opacity: 0 }}    // アンマウント時
-      transition={{ ease: "easeOut", duration: 2 }}
+      transition={{ ease: "easeOut", duration: 1 }}
     >
       <div className='overflow-x-hidden'>
         <Head>

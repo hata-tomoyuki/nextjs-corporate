@@ -10,7 +10,7 @@ function Product({product}) {
       initial={{ opacity: 0 }} // 初期状態
       animate={{ opacity: 1 }} // マウント時
       exit={{ opacity: 0 }}    // アンマウント時
-      transition={{ ease: "easeOut", duration: 2 }}
+      transition={{ ease: "easeOut", duration: 1 }}
     >
       <div className='flex p-16 lg:p-32  gap-20 lg:gap-8 flex-col-reverse lg:flex-row'>
         <div className='lg:w-3/5 flex flex-wrap'>
