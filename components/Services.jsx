@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 function Services({services}) {
   return (
-    <div className='p-8 lg:p-32 overflow-hidden'>
+    <div className='p-8 lg:p-32 overflow-hidden max-w-[1440px] mx-auto'>
       <h2 className='text-4xl sm:border-b-4 sm:border-emerald-600 w-fit font-bold mt-12 lg:mt-0'>What We Can Do?</h2>
       <h2 className='text-4xl lg:text-5xl text-emerald-700 font-bold mt-6'>Services we can help you with</h2>
-      <div className='flex flex-wrap justify-center md:justify-between mt-10'>
+      <div className='flex flex-wrap justify-center md:justify-between mt-10 gap-20'>
         {services.map((service) => (
           <Link passHref key={service.id} href={`/products/${service.name}`}>
             <div className='w-[245px] h-[245px] sm:w-[500px] sm:h-[500px] flex justify-center items-center p-2 sm:p-4 bg-gray-200 mb-10 relative group rounded'>
