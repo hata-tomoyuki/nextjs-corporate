@@ -4,7 +4,7 @@ import Circle from './Circle'
 
 function Intro() {
   return (
-    <div className='w-full h-[calc(100vh_-_50px)] flex flex-col lg:flex-row mt-[50px] overflow-hidden'>
+    <div className='w-full h-[calc(100vh_-_50px)] flex flex-col lg:flex-row mt-[50px]'>
         <div className='lg:w-1/2 p-8 lg:p-32 flex flex-col justify-around relative'>
             <Circle backgroundColor="yellow" top='-50%' left='-50%' />
             <Circle backgroundColor="yellow" right='-50%' bottom='-50%' />
