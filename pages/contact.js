@@ -8,7 +8,7 @@ function contact() {
       initial={{ opacity: 0 }} // 初期状態
       animate={{ opacity: 1 }} // マウント時
       exit={{ opacity: 0 }}    // アンマウント時
-      transition={{ ease: "easeOut", duration: 1 }}
+      transition={{ ease: "easeOut", duration: 0.3 }}
     >
       <div className='flex flex-col items-center justify-center relative pb-20 lg:mb-52 overflow-hidden'>
           <Circle backgroundColor="lightgreen" left='-40vh' top='-20vh' />
