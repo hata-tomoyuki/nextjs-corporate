@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -7,15 +8,17 @@ function Footer() {
       <div className='lg:flex-[2] mb-12 lg:mb-0'>
         <h2 className='text-4xl lg:text-5xl font-bold text-white bg-emerald-600 p-2 w-fit mb-8 lg:mb-4'>PRO. CREATIVES</h2>
         <h2 className='text-4xl lg:text-5xl font-bold underline'>
-          <a href='/contact' passHref className='flex items-center'>
-            <span className='mr-4'>WORK WITH US</span>
-            <Image 
-              src="/img/link.png"
-              alt='Image'
-              width='40px'
-              height='40px'
-            />
-          </a>
+          <Link href='/contact' passHref className='flex items-center'>
+            <a>
+              <span className='mr-4'>WORK WITH US</span>
+              <Image 
+                src="/img/link.png"
+                alt='Image'
+                width='40px'
+                height='40px'
+              />
+            </a>
+          </Link>
         </h2>
       </div>
       <div className='lg:flex-1 mr-8 mb-8 lg:mb-0'>
