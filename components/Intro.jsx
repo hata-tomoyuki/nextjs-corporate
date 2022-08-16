@@ -20,6 +20,7 @@ function Intro() {
                 height='100%'
                 layout='responsive'
                 objectFit='cover'
+                priority={true}
             />
         </div>
     </div>
