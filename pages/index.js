@@ -13,16 +13,14 @@ export default function Home({ services }) {
       exit={{ opacity: 0 }}    // アンマウント時
       transition={{ ease: "easeOut", duration: 0.3 }}
     >
-      <div className='overflow-scroll'>
-        <div className='overflow-x-hidden'>
-          <Head>
-            <title>Web Builder</title>
-            <meta name="description" content="We'll give you the best quality through web site development!" />
-          </Head>
-          <Intro />
-          <Services services={ services } />
-          <Testimonials />
-        </div>
+      <div className='overflow-x-hidden'>
+        <Head>
+          <title>Web Builder</title>
+          <meta name="description" content="We'll give you the best quality through web site development!" />
+        </Head>
+        <Intro />
+        <Services services={ services } />
+        <Testimonials />
       </div>
     </motion.div>
   )
