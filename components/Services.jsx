@@ -10,7 +10,7 @@ function Services({services}) {
       <div className='flex flex-wrap justify-center md:justify-between mt-10 gap-10 lg:gap-20'>
         {services.map((service) => (
           <Link passHref key={service.id} href={`/products/${service.name}`}>
-            <FadeIn>
+            {/* <FadeIn> */}
               <div className='w-[245px] h-[245px] sm:w-[500px] sm:h-[500px] flex justify-center items-center p-2 sm:p-4 bg-gray-200 lg:mb-10 relative group rounded'>
                 <div className='w-[70%] text-center absolute z-50 bg-gray-300/80 rounded-tr-xl p-4 opacity-0 group-hover:opacity-100 ease-in duration-300 select-none'>{service.desc}</div>
                 <span className='absolute top-4 left-4 text-gray-600 font-light tracking-widest uppercase'>{service.title}</span>
@@ -35,7 +35,7 @@ function Services({services}) {
                   )}
                 </div>
               </div>
-            </FadeIn>
+            {/* </FadeIn> */}
           </Link>
         ))}
       </div>
