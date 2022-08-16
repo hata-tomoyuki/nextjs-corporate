@@ -4,7 +4,7 @@ import { FadeIn } from '../components/FadeIn';
 
 function Services({services}) {
   return (
-    <div className='p-8 lg:p-32 overflow-hidden max-w-[1440px] mx-auto mt-32 lg:mt-0'>
+    <div className='p-8 lg:p-32 overflow-hidden max-w-[1440px] mx-auto lg:mt-0'>
       <h2 className='text-4xl sm:border-b-4 sm:border-emerald-600 w-fit font-bold mt-12 lg:mt-0'>What We Can Do?</h2>
       <h2 className='text-4xl lg:text-5xl text-emerald-700 font-bold mt-6'>Services we can help you with</h2>
       <div className='flex flex-wrap justify-center md:justify-between mt-10 gap-10 lg:gap-20'>
