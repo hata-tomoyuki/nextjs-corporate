@@ -23,7 +23,7 @@ function Services({services}) {
                 <div className='w-[70%] h-[70%] sm:w-[85%] sm:h-[85%] rounded-[50%] overflow-hidden group-hover:scale-110 ease-in duration-300 mt-4 lg:mt-0'>
                   {service.video ? (
                     <video 
-                      className='w-full h-full object-cover' 
+                      className='w-full h-full object-cover rounded-[50%]' 
                       src={`/img/${service.video}`} 
                       autoPlay 
                       loop 

@@ -5,4 +5,5 @@
 html {
     overflow: scroll;
     scroll-behavior: smooth;
+    overflow-wrap: break-word;
 }
