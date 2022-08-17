@@ -24,7 +24,7 @@ function Testimonials() {
                                 width='30'
                                 height='30'
                             />
-                            <p className='text-xl font-light break-words my-4'>
+                            <p className='text-xl font-light my-4'>
                                 {user.comment}
                             </p>
                             <div className='flex items-center'>
